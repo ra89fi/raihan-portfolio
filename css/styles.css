@@ -136,7 +136,8 @@ nav ul li a:hover {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.projects .heading {
+.projects .heading,
+.contact .heading {
     font-size: 1.3rem;
     color: #ffc300;
     text-transform: uppercase;
@@ -147,4 +148,42 @@ nav ul li a:hover {
 
 .item .image img {
     width: 100%;
+}
+
+.contact > div {
+    display: flex;
+}
+
+.links,
+.form {
+    width: 50%;
+}
+
+.contact form,
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 370px;
+}
+
+form input,
+form textarea {
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: #f2f3f7;
+    font-size: 1rem;
+}
+
+.contact {
+    margin-bottom: 70px;
+}
+
+.links div {
+    display: flex;
+}
+
+.links img {
+    width: 12%;
 }
