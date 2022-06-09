@@ -1,0 +1,102 @@
+/*
+ * links
+ * https://preview.colorlib.com/#jackco
+ * https://preview.colorlib.com/#jackson
+ * https://preview.colorlib.com/#digilab
+ * https://preview.colorlib.com/#ronaldo
+ */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0 110px;
+}
+
+/***************************************
+ * Header
+ */
+
+header {
+    height: 100vh;
+    background-image: url('../images/xbg_2.jpg.pagespeed.ic.MAIRIZ0TuN.webp');
+    background-position: top right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navigation {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-name {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.colored {
+    color: #ffc300;
+}
+
+.banner {
+    text-align: center;
+}
+
+.heading {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.get-in-touch {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    border-radius: 25px;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    background-image: linear-gradient(
+        135deg,
+        rgba(255, 195, 0) 100%,
+        rgba(255, 214, 10) 0%
+    );
+}
+
+.get-in-touch:hover {
+    background: #003566;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #ffc300;
+}
