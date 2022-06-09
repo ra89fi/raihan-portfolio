@@ -126,3 +126,25 @@ nav ul li a:hover {
     text-transform: uppercase;
     font-weight: 700;
 }
+
+.projects {
+    max-width: 1300px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.projects .heading {
+    font-size: 1.3rem;
+    color: #ffc300;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 70px 0;
+    text-align: center;
+}
+
+.item .image img {
+    width: 100%;
+}
