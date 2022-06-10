@@ -15,7 +15,8 @@
 body {
     font-family: Lato, sans-serif;
     font-size: 16px;
-    margin: 0;
+    max-width: 1300px;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -61,6 +62,7 @@ header {
 }
 
 .get-in-touch {
+    text-decoration: none;
     font-size: 1.1rem;
     text-transform: uppercase;
     font-weight: 700;
@@ -128,7 +130,6 @@ nav ul li a:hover {
 }
 
 .projects {
-    max-width: 1300px;
 }
 
 .items {
@@ -152,19 +153,19 @@ nav ul li a:hover {
 
 .contact > div {
     display: flex;
+    padding-top: 70px;
 }
 
 .links,
 .form {
-    width: 50%;
+    width: 100%;
 }
 
-.contact form,
-.links {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    min-height: 370px;
+.contact form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    padding-bottom: 70px;
 }
 
 form input,
@@ -176,14 +177,72 @@ form textarea {
     font-size: 1rem;
 }
 
-.contact {
-    margin-bottom: 70px;
+form input[type='submit'] {
+    border: 2px solid #001d3d;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #ffc300;
 }
 
-.links div {
-    display: flex;
+form input[type='submit']:hover {
+    cursor: pointer;
+    background-color: #001d3d;
+    color: white;
+}
+
+.contact {
+    margin-bottom: 70px;
+    background-color: #ffc300;
+}
+
+.links {
+    text-align: right;
+    padding-right: 90px;
 }
 
 .links img {
     width: 12%;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px solid #ffc300;
+}
+
+.links a:hover img {
+    border: 2px solid black;
+}
+
+.dl-res {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: #ffc300;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #001d3d;
+}
+
+.dl-res:hover {
+    cursor: pointer;
+    background-color: #001d3d;
+    color: white;
+}
+
+.links p {
+    font-size: 1.1rem;
+}
+
+.links p:first-child {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+footer {
+    padding: 0 0 20px 0;
+    text-align: center;
+    font-size: 1.1rem;
 }
