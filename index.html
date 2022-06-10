@@ -139,28 +139,33 @@
                     /></a>
                 </div>
                 <div class="form">
-                    <form
-                        action="https://script.google.com/macros/s/AKfycbxbv-9WrGVrNYJ5QPDKO26b0Gxu8g9E6aoYFk--G7GM_TBf4oQuawR8O6i9eWdaqs5u/exec"
-                        method="POST"
-                    >
-                        <input type="text" name="name" placeholder="Name" />
-                        <input type="email" name="email" placeholder="Email" />
+                    <form>
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Name"
+                            required
+                        />
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="Email"
+                            required
+                        />
                         <input
                             type="text"
                             name="subject"
                             placeholder="Subject"
+                            required
                         />
                         <textarea
                             name="message"
                             cols="30"
                             rows="5"
                             placeholder="Message"
+                            required
                         ></textarea>
-                        <input
-                            type="submit"
-                            value="Submit"
-                            onSubmit="handleSubmit"
-                        />
+                        <input type="submit" value="Submit" />
                     </form>
                 </div>
             </div>
