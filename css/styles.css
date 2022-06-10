@@ -71,7 +71,8 @@ header {
     padding: 15px 25px;
     border: none;
     outline: none;
-    background-color: #ffc300;
+    /* background-color: #ffc300; */
+    background-color: #009688;
     /* background-image: linear-gradient( */
     /*     135deg, */
     /*     rgba(0, 53, 102, 1) 0%, */
@@ -125,7 +126,8 @@ nav ul li a:hover {
 
 .text .heading {
     font-size: 1.3rem;
-    color: #ffc300;
+    /* color: #ffc300; */
+    color: #009688;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -157,7 +159,8 @@ nav ul li a:hover {
 
 .projects .heading {
     font-size: 1.3rem;
-    color: #ffc300;
+    /* color: #ffc300; */
+    color: #009688;
     text-transform: uppercase;
     font-weight: 700;
     margin: 70px 0;
@@ -198,7 +201,9 @@ form input[type='submit'] {
     border: 2px solid #001d3d;
     font-weight: bold;
     text-transform: uppercase;
-    background-color: #ffc300;
+    /* background-color: #ffc300; */
+    background-color: black;
+    color: white;
 }
 
 form input[type='submit']:hover {
@@ -209,7 +214,8 @@ form input[type='submit']:hover {
 
 .contact {
     margin-bottom: 70px;
-    background-color: #ffc300;
+    /* background-color: #ffc300; */
+    background-color: #009688;
 }
 
 .links {
@@ -221,21 +227,18 @@ form input[type='submit']:hover {
     width: 12%;
     border-radius: 50%;
     padding: 8px;
-    border: 2px solid #ffc300;
-}
-
-.links a:hover img {
     border: 2px solid black;
 }
 
 .dl-res {
-    color: black;
+    color: white;
     display: inline-block;
     text-decoration: none;
     border: none;
     outline: none;
     padding: 15px;
-    background-color: #ffc300;
+    /* background-color: #ffc300; */
+    background-color: black;
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -268,7 +271,8 @@ footer {
     text-decoration: none;
     font-size: 1rem;
     color: white;
-    background-color: #ffc300;
+    /* background-color: #ffc300; */
+    background-color: #009688;
     padding: 15px 20px;
     font-weight: 700;
     border-radius: 3px;
