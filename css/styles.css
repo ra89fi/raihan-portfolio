@@ -365,3 +365,7 @@ footer {
     background-color: white;
     color: #003566;
 }
+
+.modal .info {
+    color:  white;
+}
