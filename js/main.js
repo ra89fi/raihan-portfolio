@@ -38,3 +38,12 @@ window.onload = function () {
     var form = document.querySelector('form');
     form.onsubmit = handleSubmit.bind(form);
 };
+
+function closeModal(id) {
+    document.querySelector('#modal' + id).style.display = 'none';
+}
+
+function openModal(id) {
+    console.log('see more');
+    document.querySelector('#modal' + id).style.display = 'grid';
+}

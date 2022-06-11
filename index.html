@@ -94,11 +94,9 @@
                         />
                     </div>
                     <div class="overlay">
-                        <a
-                            href="https://trackshoot-d153b.web.app/"
-                            class="see-more"
-                            >See More</a
-                        >
+                        <button class="see-more" id="1" onclick="openModal(1)">
+                            See More
+                        </button>
                     </div>
                 </div>
                 <div class="item">
@@ -109,11 +107,9 @@
                         />
                     </div>
                     <div class="overlay">
-                        <a
-                            href="https://eloquent-youtiao-be31ad.netlify.app/"
-                            class="see-more"
-                            >See More</a
-                        >
+                        <button class="see-more" id="1" onclick="openModal(2)">
+                            See More
+                        </button>
                     </div>
                 </div>
                 <div class="item">
@@ -124,11 +120,9 @@
                         />
                     </div>
                     <div class="overlay">
-                        <a
-                            href="https://simple-firebase-authenti-172f8.web.app/"
-                            class="see-more"
-                            >See More</a
-                        >
+                        <button class="see-more" id="1" onclick="openModal(3)">
+                            See More
+                        </button>
                     </div>
                 </div>
             </div>
@@ -207,6 +201,123 @@
         <footer>
             <p>Copyright &copy; 2022. All rights reserved.</p>
         </footer>
+        <div id="modal1" class="modal">
+            <div class="options">
+                <button onclick="closeModal(1)">X</button>
+                <a href="https://github.com/ra89fi/TrackShoot-Client"
+                    >Frontend Code</a
+                >
+                <a href="https://github.com/ra89fi/TrackShoot-Server"
+                    >Backend Code</a
+                >
+            </div>
+            <div class="shots">
+                <a href="https://trackshoot-d153b.web.app/"
+                    ><img src="images/trackshoot-d153b.web.app_.png" alt=""
+                /></a>
+                <a href="https://trackshoot-d153b.web.app/"
+                    ><img src="images/trackshoot-d153b.web.app_.png" alt=""
+                /></a>
+                <a href="https://trackshoot-d153b.web.app/"
+                    ><img src="images/trackshoot-d153b.web.app_.png" alt=""
+                /></a>
+            </div>
+            <div class="skills">
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>NodeJs</li>
+                    <li>React</li>
+                    <li>Firebase</li>
+                    <li>Bootstrap</li>
+                    <li>Tailwind CSS</li>
+                </ul>
+            </div>
+            <div class="info">
+                <ul>
+                    <li>
+                        It was made using latest React, React Router, React
+                        Hooks
+                    </li>
+                    <li>Firebase was used for authentication and hosting</li>
+                    <li>NodeJs and MongoDB was used for backend</li>
+                    <li>Uses Express and provides a REST API to frontend</li>
+                </ul>
+            </div>
+        </div>
+        <div id="modal2" class="modal">
+            <div class="options">
+                <button onclick="closeModal(2)">X</button>
+                <a href="https://github.com/ra89fi/Shopping-Overhaul">Code</a>
+            </div>
+            <div class="shots">
+                <a href="https://eloquent-youtiao-be31ad.netlify.app/"
+                    ><img
+                        src="images/eloquent-youtiao-be31ad.netlify.app_.png"
+                        alt=""
+                /></a>
+                <a href="https://eloquent-youtiao-be31ad.netlify.app/"
+                    ><img
+                        src="images/eloquent-youtiao-be31ad.netlify.app_.png"
+                        alt=""
+                /></a>
+                <a href="https://eloquent-youtiao-be31ad.netlify.app/"
+                    ><img
+                        src="images/eloquent-youtiao-be31ad.netlify.app_.png"
+                        alt=""
+                /></a>
+            </div>
+            <div class="skills">
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>NodeJs</li>
+                    <li>React</li>
+                    <li>Firebase</li>
+                    <li>Bootstrap</li>
+                    <li>Tailwind CSS</li>
+                </ul>
+            </div>
+            <div class="info">Some info here</div>
+        </div>
+        <div id="modal3" class="modal">
+            <div class="options">
+                <button onclick="closeModal(3)">X</button>
+                <a href="https://github.com/ra89fi/Cpp-Mentor">Code</a>
+            </div>
+            <div class="shots">
+                <a href="https://simple-firebase-authenti-172f8.web.app/"
+                    ><img
+                        src="images//simple-firebase-authenti-172f8.web.app_.png"
+                        alt=""
+                /></a>
+                <a href="https://simple-firebase-authenti-172f8.web.app/"
+                    ><img
+                        src="images//simple-firebase-authenti-172f8.web.app_.png"
+                        alt=""
+                /></a>
+                <a href="https://simple-firebase-authenti-172f8.web.app/"
+                    ><img
+                        src="images//simple-firebase-authenti-172f8.web.app_.png"
+                        alt=""
+                /></a>
+            </div>
+            <div class="skills">
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>NodeJs</li>
+                    <li>React</li>
+                    <li>Firebase</li>
+                    <li>Bootstrap</li>
+                    <li>Tailwind CSS</li>
+                </ul>
+            </div>
+            <div class="info">Some info here</div>
+        </div>
         <script defer="defer" src="js/main.js"></script>
     </body>
 </html>
