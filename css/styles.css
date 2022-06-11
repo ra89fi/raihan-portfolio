@@ -49,7 +49,7 @@ header {
 }
 
 .colored {
-    color: #003566;
+    color: #009688;
 }
 
 .banner {
@@ -97,7 +97,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: #003566;
     padding-bottom: 10px;
 }
 
@@ -117,11 +117,12 @@ nav ul li a:hover {
     min-height: 420px;
     margin: 0 auto;
     padding: 50px;
-    text-align: center;
 }
 
-.text p {
-    font-size: 2.3rem;
+.text > p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    text-align: center;
 }
 
 .text .heading {
@@ -130,6 +131,23 @@ nav ul li a:hover {
     color: #009688;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.skills ul {
+    margin: 30px auto;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+}
+
+.skills ul li {
+    padding: 10px;
+    background: #003566;
+    color: white;
+    font-size: 1.1rem;
 }
 
 .items {
@@ -157,7 +175,8 @@ nav ul li a:hover {
     background-color: rgba(123, 34, 123, 0.3);
 }
 
-.projects .heading {
+.projects .heading,
+.blogs .heading {
     font-size: 1.3rem;
     /* color: #ffc300; */
     color: #009688;
@@ -198,7 +217,6 @@ form textarea {
 }
 
 form input[type='submit'] {
-    border: 2px solid #001d3d;
     font-weight: bold;
     text-transform: uppercase;
     /* background-color: #ffc300; */
@@ -234,15 +252,12 @@ form input[type='submit']:hover {
     color: white;
     display: inline-block;
     text-decoration: none;
-    border: none;
-    outline: none;
     padding: 15px;
     /* background-color: #ffc300; */
     background-color: black;
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
-    border: 2px solid #001d3d;
 }
 
 .dl-res:hover {
@@ -272,9 +287,14 @@ footer {
     font-size: 1rem;
     color: white;
     /* background-color: #ffc300; */
-    background-color: #009688;
+    background-color: #003566;
     padding: 15px 20px;
     font-weight: 700;
-    border-radius: 3px;
     text-transform: uppercase;
+}
+
+.blogs p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 70px;
 }
